@@ -58,7 +58,7 @@
     <div class="row justify-content-center">
         @foreach ($results as $institution)
         <div class="facility-container">
-            <img class="facility-image" src="{{ asset('photos/' . $institution->photos) }}" alt="施設写真">
+            <img class="facility-image" src="/teethe.shop/dog-friendly/public/photos/{{ $institution->photos }}" alt="施設写真">
             <div class="facility-info">
                 <div class="facility-name">{{ $institution->name }}</div>
                 <div class="facility-address">住所: {{ $institution->address }}</div>

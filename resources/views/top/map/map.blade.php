@@ -206,8 +206,8 @@ function initMap() {
                 <p>住所: ${feature.address}</p>
                 <p>電話番号: ${feature.tel}</p>
                 <p>カテゴリー: ${feature.category}</p>
-                ${feature.photos ? `<img src="photos/${feature.photos}" alt="施設写真">` : ''}
-            </div>
+                ${feature.photos ? `<img src="/teethe.shop/dog-friendly/public/photos/${feature.photos}" alt="施設写真">` : ''}
+            </div> 
         `,
         maxWidth: 500,
         ariaLabel: "Info Window " + feature.id,

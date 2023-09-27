@@ -42,7 +42,7 @@
 
 
     <p class="text-center fs-2 m-3">{{$institution->name}}</p>
-    <img src="{{ asset('photos/' . $institution->photos) }}" class="mx-auto img-responsive" alt="写真">
+    <img src="/teethe.shop/dog-friendly/public/photos/{{ $institution->photos }}" class="mx-auto img-responsive" alt="写真">
 
 
 
